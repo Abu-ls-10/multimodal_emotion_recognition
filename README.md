@@ -1,6 +1,6 @@
 # Multimodal Emotion Recognition with Cross-Attention Transformers
 
-> A CSC413 research project that models six emotions from speech and facial behaviour using Transformer encoders and cross-modal attention.
+> A research project that models six emotions from speech and facial behaviour using Transformer encoders and cross-modal attention.
 
 This project investigates whether emotion can be inferred more effectively from **how people speak and look** than from either signal alone. Using the CMU-MOSEI benchmark, the core experiment learns from acoustic COVAREP features and FACET 4.2 facial features, deliberately excluding text from the primary model to focus on nonverbal affective cues.
 
