@@ -4,7 +4,7 @@
 
 This project investigates whether emotion can be inferred more effectively from **how people speak and look** than from either signal alone. Using the CMU-MOSEI benchmark, the core experiment learns from acoustic COVAREP features and FACET 4.2 facial features, deliberately excluding text from the primary model to focus on nonverbal affective cues.
 
-The project report is available in [`CSC413_Emotion_detection.pdf`](CSC413_Emotion_detection.pdf).
+The project report is available in [`multimodal_emotion_recognition.pdf`](multimodal_emotion_recognition.pdf).
 
 ## Project Highlights
 
@@ -99,9 +99,9 @@ This was a team project for the University of Toronto’s CSC413 course. The rep
 .
 ├── AV_vs_AVT.ipynb                 # AV Transformer and exploratory AVT comparison
 ├── MOSEI_cleaning.ipynb             # Dataset inspection, filtering, and balancing workflow
-├── MOSEI_Data_preprocess.ipynb      # Temporal alignment and serialized dataset preparation
-├── Text_emotion_detection (2).ipynb # Text-only baseline exploration
-├── CSC413_Emotion_detection.pdf     # Project report
+├── MOSEI_data_preprocess.ipynb      # Temporal alignment and serialized dataset preparation
+├── text_emotion_detection.ipynb # Text-only baseline exploration
+├── multimodal_emotion_recognition.pdf     # Project report
 └── README.md
 ```
 
@@ -121,9 +121,9 @@ This is a notebook-first research repository. The notebooks were authored for Go
 
 1. Open the notebooks in Google Colab or a local Jupyter environment.
 2. Install the dependencies shown in the setup cells, including the CMU Multimodal SDK.
-3. Follow `MOSEI_cleaning.ipynb` and `MOSEI_Data_preprocess.ipynb` to inspect the data, align features to label intervals, and prepare the serialized dataset artifact.
+3. Follow `MOSEI_cleaning.ipynb` and `MOSEI_data_preprocess.ipynb` to inspect the data, align features to label intervals, and prepare the serialized dataset artifact.
 4. Run `AV_vs_AVT.ipynb` to train and compare the audio-visual and exploratory audio-visual-text Transformer models.
-5. Use `Text_emotion_detection (2).ipynb` for the text-only baseline exploration.
+5. Use `text_emotion_detection.ipynb` for the text-only baseline exploration.
 
 Because the notebooks download external artifacts and include exploratory cells, exact runtime and results depend on the available data snapshot, package versions, random seed, and GPU environment. For a production or publication-grade reproduction, the next improvement would be to extract the shared data pipeline and model classes into versioned Python modules, add a dependency lockfile, and centralize the experiment configuration.
 
