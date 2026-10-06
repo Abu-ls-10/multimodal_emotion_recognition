@@ -97,11 +97,11 @@ This was a team project for the University of Toronto’s CSC413 course. The rep
 
 ```text
 .
-├── AV_vs_AVT.ipynb                 # AV Transformer and exploratory AVT comparison
-├── MOSEI_cleaning.ipynb             # Dataset inspection, filtering, and balancing workflow
-├── MOSEI_data_preprocess.ipynb      # Temporal alignment and serialized dataset preparation
-├── text_emotion_detection.ipynb # Text-only baseline exploration
-├── multimodal_emotion_recognition.pdf     # Project report
+├── AV_vs_AVT.ipynb                       # AV Transformer and exploratory AVT comparison
+├── MOSEI_cleaning.ipynb                  # Dataset inspection, filtering, and balancing workflow
+├── MOSEI_data_preprocess.ipynb           # Temporal alignment and serialized dataset preparation
+├── text_emotion_detection.ipynb          # Text-only baseline exploration
+├── multimodal_emotion_recognition.pdf    # Project report
 └── README.md
 ```
 
